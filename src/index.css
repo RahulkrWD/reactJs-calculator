@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.calculator{
+    width: 350px;
+    padding: 10px 20px;
+    background-color:red;
+    border: 2px solid black;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+}
+h5{
+    padding: 10px;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+input{
+    width: 300px;
+    border: none;
+    padding: 7px;
+    outline: none;
+    border-radius: 10px;
+}
